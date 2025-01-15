@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production",
+    "build": "mkdir -p build && webpack --mode production",
     "test": "your-test-script",
     "eject": "your-eject-script"
   }
